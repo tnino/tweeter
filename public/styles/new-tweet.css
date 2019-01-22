@@ -1,0 +1,28 @@
+.new-tweet{
+    border-radius: 25px;
+    background: #f0f0f0;
+    padding: 20px; 
+    width: 380px;
+    height: 180px; 
+    line-height: 80%;
+    padding-top: 15px;
+    padding-right: 2em;
+    padding-bottom: 15px;
+    padding-left: 2em;
+    margin:30px;
+  }
+
+h2{
+    border-bottom: 3px solid black;
+    padding: 10px;
+   
+}
+
+.counter{
+    float: right; 
+    padding-top: 10px;
+}
+textarea{
+    width: 320px;
+    padding-bottom: 30px;
+  }
