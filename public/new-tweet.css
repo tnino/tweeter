@@ -1,11 +1,15 @@
-.new-tweet{
+.new-tweet {
     border-radius: 25px;
     background-color: red;
-    padding: 20px; 
+    padding: 20px;
     width: 200px;
-    height: 150px; 
+    height: 150px;
 }
 
-.counter{
+.counter {
     align-content: right;
+    color: black;
 }
+
+/* .new-tweet{
+} */
