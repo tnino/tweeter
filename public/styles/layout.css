@@ -38,13 +38,12 @@ main {
   border-width: 1px;
   width: 382px;
   border-radius: 25px;
- 
+  margin:30px;
+  opacity: 0.6;
 }
 .tweet:hover {
-  opacity: 0.6}
-
-
-
+  opacity: 1.0;
+}
 
 header {
   border-radius: 25px 25px 0px 0px;
@@ -65,21 +64,41 @@ header {
 }
 
 #timestamp {
-  position: absolute;
+  position: relative;
+}
+
+#icons{
+  float:right; 
+  position:relative;
+  top:-50px;
+  font-size:24px;
 }
 
 footer {
   border-top: 1px solid black;
   width: 380px;
+  padding-top: .8em;
+  padding-right: .8em;
+  padding-bottom: .8em;
+  padding-left: .8em;
 }
 
 .tweterhandle{
   float:right;
 }
 
+p{
+  padding-top: .8em;
+  padding-right: .8em;
+  padding-bottom: .8em;
+  padding-left: .8em;
+}
+
 img{
   float:left;
 }
+
+
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */

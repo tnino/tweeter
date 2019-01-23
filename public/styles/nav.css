@@ -8,7 +8,8 @@ nav {
     padding-right: 2m;
     padding-bottom: 0px;
     padding-left: 2m;
-    margin: auto;
+    margin: -30px auto;
+    z-index: 3;
 }
 
 .logo {
