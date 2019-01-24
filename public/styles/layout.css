@@ -30,17 +30,18 @@ main {
   margin: auto;
   position: relative;
   top: 110px;
-
 }
-.tweet{
+
+.tweet {
   border-style: solid;
   border-color: #6A6A6A;
   border-width: 1px;
   width: 382px;
   border-radius: 25px;
-  margin:30px;
+  margin: 30px;
   opacity: 0.6;
 }
+
 .tweet:hover {
   opacity: 1.0;
 }
@@ -67,11 +68,11 @@ header {
   position: relative;
 }
 
-#icons{
-  float:right; 
-  position:relative;
-  top:-50px;
-  font-size:24px;
+#icons {
+  float: right;
+  position: relative;
+  top: -50px;
+  font-size: 24px;
 }
 
 footer {
@@ -83,19 +84,24 @@ footer {
   padding-left: .8em;
 }
 
-.tweterhandle{
-  float:right;
+.tweterhandle {
+  float: right;
 }
 
-p{
+p {
   padding-top: .8em;
   padding-right: .8em;
   padding-bottom: .8em;
   padding-left: .8em;
+  overflow-wrap: break-word;
+  width: 380px;
 }
 
-img{
-  float:left;
+img {
+  float: left;
+}
+toggle{
+  display:none
 }
 
 

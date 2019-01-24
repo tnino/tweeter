@@ -17,8 +17,26 @@ nav {
     height: 80px;
     float: left;
 }
+#warning{
+    color: #8B0000;
+    background: #00a087;
+}
 
 .header {
     line-height: 86px;
     font-size: 38px;
 }
+
+button{
+    float: right;
+    margin: 25px auto;
+    width: 100px;
+    margin-top: 30px;
+    margin-right: 55px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+}
+
+.new-tweet{
+    display:none
+  }
