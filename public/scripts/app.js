@@ -3,6 +3,8 @@
  * jQuery is already loaded
  * Reminder: Use (and do all your DOM work in) jQuery's document ready function
  */
+
+$(document).ready(function () {
 const tweetData = [
         {
           "user": {
@@ -87,10 +89,41 @@ const time = `${hours}:${minutes}:${seconds}`
     return $tweet;
 }
 
-
-
-
-$(document).ready(function () {
     renderTweets(tweetData);
-})
+
+
+    $('#tweetform').submit(function (event) {
+        event.preventDefault();
+        console.log(this);
+        let newTweetData = $(this).serialize();
+
+        $.post('http://localhost:8080/tweets', newTweetData)
+
+
+
+        function loadTweets() {
+            $.get('http://localhost:8080/tweets').then(tweet => {
+              renderTweets(tweet)
+            })
+          }
+          
+          loadTweets()
+
+        })
+
+        var $form = $("tweetform").submit(function(evt) {
+            evt.preventDefault();
+            var msg = $("textarea").val();
+            if (msg.length === 0) {
+              $("#no-tweet");
+            } else if (msg.length > 140) {
+              $("#limit-characters");
+            } else {
+              var formData = $(this).serialize();
+              createNewTweet(formData);
+            }
+          });
+
+ }
+)
 
