@@ -59,6 +59,10 @@ $(document).ready(function () {
             $('#warning').css("display", "none");
 
             $.post('http://localhost:8080/tweets', newTweetData)
+             .then(() => {
+                 $('#tweets-container .tweet').remove();
+                 loadTweets()
+            })
             $("#posttweet").val("");
 
         }
