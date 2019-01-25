@@ -59,10 +59,10 @@ $(document).ready(function () {
             $('#warning').css("display", "none");
 
             $.post('http://localhost:8080/tweets', newTweetData)
-             .then(() => {
-                 $('#tweets-container .tweet').remove();
-                 loadTweets()
-            })
+                .then(() => {
+                    $('#tweets-container .tweet').remove();
+                    loadTweets()
+                })
             $("#posttweet").val("");
             $('.counter').html(140);
 
@@ -73,12 +73,12 @@ $(document).ready(function () {
         $.get('http://localhost:8080/tweets').then(tweet => {
 
 
-        renderTweets(tweet)
-           
+            renderTweets(tweet)
+
         })
-        
+
     }
 
     loadTweets()
-    
+
 })
