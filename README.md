@@ -15,3 +15,16 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+- body-parser
+- chance
+- express
+- mongodb
+
+##Screenshots
+
+<img width="1680" alt="screen shot 2019-01-24 at 7 30 15 pm" src="https://user-images.githubusercontent.com/30389051/51719411-01e69e00-200f-11e9-9e0c-39569fa1d423.png">
+
+<img width="1680" alt="screen shot 2019-01-24 at 7 31 06 pm" src="https://user-images.githubusercontent.com/30389051/51719427-1034ba00-200f-11e9-9ad5-2efbfeea3557.png">
+
+
+
