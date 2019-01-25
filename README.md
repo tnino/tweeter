@@ -23,8 +23,8 @@ This repository is the starter code for the project: Students will fork and clon
 ##Screenshots
 
 <img width="1680" alt="screen shot 2019-01-24 at 7 30 15 pm" src="https://user-images.githubusercontent.com/30389051/51719411-01e69e00-200f-11e9-9e0c-39569fa1d423.png">
+In this screenshot you can see a random post form one of the users.
 
 <img width="1680" alt="screen shot 2019-01-24 at 7 31 06 pm" src="https://user-images.githubusercontent.com/30389051/51719427-1034ba00-200f-11e9-9ad5-2efbfeea3557.png">
-
-
+In this screenshot you can see the character counting allowing you to post a tweet of no more than 140 characters.
 
