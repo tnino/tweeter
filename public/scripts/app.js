@@ -17,15 +17,14 @@ $(document).ready(function () {
             $('#tweets-container').prepend(newtweet);
         };
     }
-
-    function createTweetElement(tweet) {
-        ///time convertion
+   function createTweetElement(tweet) {
+    ///time convertion
         const milliseconds = tweet.created_at;
-        const hours = `0${new Date(milliseconds).getHours() - 1}`.slice(-2);
-        const minutes = `0${new Date(milliseconds).getMinutes()}`.slice(-2);
-        const seconds = `0${new Date(milliseconds).getSeconds()}`.slice(-2);
+        const hour = `0${new Date(milliseconds).getHours() - 0}`.slice(-2);
+        const minute = `0${new Date(milliseconds).getMinutes()}`.slice(-2);
+        const second = `0${new Date(milliseconds).getSeconds()}`.slice(-2);
 
-        const time = `${hours}:${minutes}:${seconds}`
+        const time = `${hour}:${minute}:${second}`
 
         let $tweet = $('<article>').addClass('tweet')
             .append($('<header>')
@@ -43,7 +42,7 @@ $(document).ready(function () {
 
         return $tweet;
     }
-
+//character counter
     $('#tweetform').submit(function (event) {
         event.preventDefault();
         let newTweetData = $(this).serialize();

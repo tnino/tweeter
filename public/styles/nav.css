@@ -37,5 +37,6 @@ button{
 }
 
 .new-tweet{
-    display:none
+    display:none;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/03/75/83/6457bdb5a6ce883.jpg");
   }
