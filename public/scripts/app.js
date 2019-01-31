@@ -18,7 +18,7 @@ $(document).ready(function () {
         };
     }
    function createTweetElement(tweet) {
-    ///time convertion
+    ///time convertion from milimiters to Hours,minutes,seconds
         const milliseconds = tweet.created_at;
         const hour = `0${new Date(milliseconds).getHours() - 0}`.slice(-2);
         const minute = `0${new Date(milliseconds).getMinutes()}`.slice(-2);
